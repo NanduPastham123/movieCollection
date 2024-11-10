@@ -1,5 +1,5 @@
 const express = require('express');
-const collectionsRouter = require('./routes/collectionsRoute');
+const collectionsRouter = require('./collectionsRoute');
 
 const app = express();
 app.use(express.json());
